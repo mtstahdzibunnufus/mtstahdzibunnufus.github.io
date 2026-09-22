@@ -1,0 +1,28 @@
+/* Mengatur tampilan dasar halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* Warna latar belakang abu-abu muda */
+    color: #333333;            /* Warna teks abu-abu gelap */
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Mengatur tampilan Judul Utama (h1) */
+h1 {
+    color: #2c3e50;            /* Warna biru tua */
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Mengatur tampilan Paragraf (p) */
+p {
+    background-color: #ffffff; /* Kotak putih di belakang teks */
+    padding: 15px 25px;
+    border-radius: 8px;        /* Membuat sudut kotak melengkung */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Efek bayangan halus */
+}
