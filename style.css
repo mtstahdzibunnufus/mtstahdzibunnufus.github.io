@@ -26,3 +26,29 @@ p {
     border-radius: 8px;        /* Membuat sudut kotak melengkung */
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Efek bayangan halus */
 }
+/* Desain Awal Tombol */
+.btn-tombol {
+    background-color: #3498db; /* Warna biru */
+    color: white;              /* Warna teks putih */
+    padding: 12px 24px;        /* Jarak dalam tombol (atas-bawah, kiri-kanan) */
+    font-size: 16px;           /* Ukuran teks */
+    border: none;              /* Menghilangkan garis tepi bawaan */
+    border-radius: 25px;       /* Membuat bentuk tombol menjadi oval/bulat */
+    cursor: pointer;           /* Mengubah kursor menjadi tangan saat menyentuh tombol */
+    font-weight: bold;
+    transition: all 0.3s ease; /* Membuat efek transisi perubahan warna menjadi halus */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Efek Interaktif Saat Kursor Menyentuh Tombol (Hover) */
+.btn-tombol:hover {
+    background-color: #2980b9; /* Warna biru berubah menjadi sedikit lebih tua */
+    transform: translateY(-2px); /* Tombol sedikit terangkat ke atas */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Bayangan menjadi lebih tebal */
+}
+
+/* Efek Saat Tombol Diklik (Active) */
+.btn-tombol:active {
+    transform: translateY(0); /* Tombol kembali ke posisi semula saat ditekan */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
